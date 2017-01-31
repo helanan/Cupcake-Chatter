@@ -1,0 +1,1 @@
+ var $toastContent = $('<span>I am toast content</span>');

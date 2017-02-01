@@ -69,6 +69,8 @@ var deleteAll = document.getElementById('clear-message');
 deleteAll.addEventListener('click',clearMessage);
 
 
-
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
 
 

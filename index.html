@@ -20,28 +20,41 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	<nav class="light-blue lighten-1" role="navigation">
-		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><Logo</a>
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="#" class="brand-logo"><img src="http://res.cloudinary.com/emma/image/upload/c_scale,w_84/v1485842456/cupcake_xz7asd.png" alt="logo" class="circle responsive-img"></a>
+
+
+<!-- start of sidenav -->
+				<ul id="slide-out" class="side-nav">
+					 <li><a href="#!">Cupcake Chatroom 1</a></li>
+     				 <li><a href="#!">Home</a></li>
+     				 <li><a href="#!">Dashboard</a></li>
+     				 <li><a href="#!">About Us</a></li>
+     				 <li class="no-padding">
+						<ul id="nav-mobile" class="collapsible collapsible-accordian">
+							<li>
+							<a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+								<div class="collapsible-body"><span class="new badge">4</span><i class="material-icons">filter_drama</i>
+									<ul>
+										<li><a href="#!">First</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+<!-- end of sidenav -->
 <!-- link 1 -->
 	    		<ul class="right hide-on-med-and-down">
 	    			<li><a href="#">Cupcake Chatroom 1<span class="new badge">4</span></a></li>
-				</ul>
-
-	    		<ul class="right hide-on-med-and-down">
 	    			<li><a href="#">Home</a></li>
+	    			<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+	    		<ul id='dropdown1' class='dropdown-content'>
+	    			<li><a href="#!">First</a></li>
 				</ul>
+			</ul>
 
-<!-- start of sidenav -->
-				<ul id="nav-mobile" class="side-nav">
-					<li><a href="#">Home</a></li>
-				</ul>
-
-				<ul id="nav-mobile" class="side-nav">
-					<li>
-						<div class="collapsible-body"><a href="#"><span class="new badge">4</span><i class="material-icons">filter_drama</i>Cupcake Chatroom 1</a></div>
-						</li>
-				</ul>
-
-				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>   		
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>   		
 	    	</div>
 	    </nav>
 <!--end of nav -->
@@ -139,19 +152,14 @@
 <!--end of message area -->
 
 
-<!-- blank section -->
-		<div class="container">
-			<div class="section">
-		
-		</div>
-
-		</div>
-		<br><br>
-
-		<div class="section">
-
-			</div>
-		</div>
+<!-- cupcake carousel -->
+  <div class="carousel">
+    <a class="carousel-item" href="#"><img src="http://res.cloudinary.com/emma/image/upload/v1485842362/1485863901_red_cupcake_f8lpbs.png"></a>
+    <a class="carousel-item" href="#two!"><img src="http://res.cloudinary.com/emma/image/upload/v1485842362/1485863868_choco_cupcake_pjtxjw.png"></a>
+    <a class="carousel-item" href="#three!"><img src="http://res.cloudinary.com/emma/image/upload/v1485842362/1485863876_cyan_cupcake_twsfd0.png"></a>
+    <a class="carousel-item" href="#four!"><img src="http://res.cloudinary.com/emma/image/upload/v1485842362/1485863859_purple_cupcake_j4ubxr.png"></a>
+    <a class="carousel-item" href="#five!"><img src="http://res.cloudinary.com/emma/image/upload/v1485842362/1485863837_rainbow_cupcake_drwf4d.png"></a>
+  </div>
 <!-- 	end of blank section -->
 
 <!-- footer -->
@@ -180,13 +188,13 @@
 				</div>
 			</div>
 	</footer>
-	<script type="text/javascripts" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script type="text/javascripts" src="javascripts/materialize.js"></script>
-	<script type="text/javascripts" src="javascripts/init.js"></script>	
-	<script type="text/javascript" src="javascript/chattyremovemessage.js"></script>
-	<script type="text/javascript" src="javascript/chattyarchive.js"></script>
-    <script type="text/javascripts" src="javascript/chattyaddmessage.js"></script>
-	<script type="text/javascripts" src="javascripts/main.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="javascripts/materialize.js"></script>
+	<script src="javascripts/init.js"></script>	
+	<script src="javascripts/chattyremovemessage.js"></script>
+	<script src="javascripts/chattyarchive.js"></script>
+    <script src="javascripts/chattyaddmessage.js"></script>
+	<script src="javascripts/main.js"></script>
 
 	  
        
